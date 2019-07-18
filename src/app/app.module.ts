@@ -1,3 +1,4 @@
+import { AuthInterceptorProvider } from './../interceptors/auth-interceptor';
 import { ClienteService } from './../services/domain/cliente.service';
 import { AuthService } from './../services/auth.service';
 import { CategoriaService } from '../services/domain/categoria.service';
@@ -29,6 +30,7 @@ import { StorageService } from '../services/storage.service';
     StatusBar,
     SplashScreen,
     CategoriaService,
+    AuthInterceptorProvider,
     ErrorInterceptorProvider,
     AuthService,
     StorageService,

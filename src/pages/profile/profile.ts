@@ -31,6 +31,7 @@ export class ProfilePage {
     let localUser = this.storage.getLocalUser();
     if (localUser && localUser.email) {
       this.clienteService.findByEmail(localUser.email).subscribe(response => {
+        console.log("03");
         this.cliente = response;
         //buscar imagems
       },
