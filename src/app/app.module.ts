@@ -1,3 +1,5 @@
+import { CidadeService } from './../services/domain/cidade.service';
+import { EstadoService } from './../services/domain/estado.service';
 import { AuthInterceptorProvider } from './../interceptors/auth-interceptor';
 import { ClienteService } from './../services/domain/cliente.service';
 import { AuthService } from './../services/auth.service';
